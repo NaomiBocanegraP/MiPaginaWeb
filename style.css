@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
+body {
+    background-image: url(./imagenes/fondo.jpg);
+}
+
+.container-fluid{
+    padding: 25px;
+}
+.calavera {
+    width: 100px;
+    padding: 10px;
+}
+
+
+
+h1 {
+    font-family: 'Metal Mania', cursive;
+    color: aliceblue;
+    font-size: 60px;
+
+}
+
+.linea {
+    border-top: 1px solid black;
+    height: 10px;
+    width: 100%;
+    padding: 0;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+    width: 100%;
+    font-family: 'New Rocker', cursive, sans-serif;
+    color: aliceblue;
+    font-size: 25px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+
+}
+.intro p {
+    font-size: 15px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    color: aliceblue;
+    padding: 10px 50px 10px 50px;
+    font-family: 'Roboto Mono', monospace, sans-serif;
+}
+
+
+.subtitulo {
+    font-size: 140px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-family: 'New Rocker', cursive, sans-serif;
+    color: aliceblue;
+    padding: 10px;
+}
+
+.music img {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+}
+
+.fondo-img {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+
+
+}
+
+
+.music p {
+    padding: 10px;
+    display: flex;
+    font-size: 12px;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace, sans-serif;
+    height: 250px;
+    width: 270px;
+    background-color: rgb(34, 31, 31);
+}
+
+h3 {
+    font-size: 15px;
+    color: aliceblue;
+    font-family: 'Roboto Mono', monospace, sans-serif;
+    background-color: rgb(34, 31, 31);
+
+}
+
+.cancion {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 0px 30px 0px;
+}
+
+
+.book img {
+    padding: 15px;
+    display: flex;
+    width: 250px;
+    height: 340px;
+}
+
+.book p {
+    font-size: 12px;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace, sans-serif;
+    letter-spacing: 2px;
+    padding: 10px 20px 10px 10px;
+    background-color: rgb(34, 31, 31);
+    width: 80%;
+}
+
